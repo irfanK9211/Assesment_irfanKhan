@@ -120,6 +120,7 @@ class PostListFragment : Fragment() {
 
 
     private fun nativeAdsInPosts(){
+
         adsManager.setOnNativeAdLoadedListener {
             val posts = viewModel.uiState.value
             val items = mutableListOf<ListItem>()
