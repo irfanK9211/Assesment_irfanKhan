@@ -51,14 +51,16 @@ class PostListFragment : Fragment() {
                 remoteConfig.fetchAndActivate().addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         // CTA text
+
                         val ctaText = remoteConfig.getString("cta_text")
-                       // myButton.text = ctaText
 
                         // Background color
                         val bgColor = remoteConfig.getString("post_item_background").ifEmpty { "#FFFFFF" }
                         try {
+
                             binding.root.setBackgroundColor(Color.parseColor(bgColor))
                         } catch (e: Exception) {
+
                             binding.root.setBackgroundColor(Color.parseColor("#FFFFFF"))
                         }
 
