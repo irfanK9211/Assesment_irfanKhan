@@ -17,6 +17,7 @@ class RemoteConfigManager @Inject constructor(
         remoteConfig.setConfigSettingsAsync(configSettings)
         remoteConfig.setDefaultsAsync(
             mapOf("detail_variant" to "control")
+
         )
     }
 
