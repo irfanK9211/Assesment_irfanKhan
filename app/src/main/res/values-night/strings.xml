@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IrfanKhan_assesment</string>
+    <string name="Post_Title">Post Title</string>
+    <string name="post_description">Post body content goes here and looks nice in two or three lines...</string>
+</resources>

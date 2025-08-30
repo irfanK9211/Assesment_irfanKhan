@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>cta_text</key>
+        <value>Read More</value>
+    </entry>
+    <entry>
+        <key>post_item_background</key>
+        <value>#FFFFFF</value>
+    </entry>
+</defaultsMap>

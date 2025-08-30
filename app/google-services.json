@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431090092813",
+    "project_id": "posts-assessment-irfankhan",
+    "storage_bucket": "posts-assessment-irfankhan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431090092813:android:30ad9a236e6dd10d823e44",
+        "android_client_info": {
+          "package_name": "com.fanawarit.irfankhan_assesment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcTnkn9goABS0DJe59EDdYCTe80us1d4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
