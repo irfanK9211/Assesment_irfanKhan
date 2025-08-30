@@ -20,9 +20,7 @@ class RemoteConfigManager @Inject constructor(
         )
     }
 
-    suspend fun fetchAndActivate() {
-        remoteConfig.fetchAndActivate().await()
-    }
+
 
     fun getString(key: String): String = remoteConfig.getString(key)
 }
