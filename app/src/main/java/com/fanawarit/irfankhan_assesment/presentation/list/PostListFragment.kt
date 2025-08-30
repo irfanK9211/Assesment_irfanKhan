@@ -67,6 +67,7 @@ class PostListFragment : Fragment() {
                 }
 
         adapter = PostAdapter { post ->
+
             viewModel.onPostClicked(post)
             val bundle = Bundle().apply {
                 putString("post_id", post.id.toString())

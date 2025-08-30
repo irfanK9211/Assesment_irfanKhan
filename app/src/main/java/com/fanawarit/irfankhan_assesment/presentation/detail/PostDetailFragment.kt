@@ -34,6 +34,7 @@ class PostDetailFragment : Fragment() {
     }
 
     private fun initViews() {
+
         lifecycleScope.launch {
             viewModel.loadPost(args.postId)
         }
