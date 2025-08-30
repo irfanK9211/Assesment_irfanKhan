@@ -28,6 +28,7 @@ class AdsManager @Inject constructor(
     }
 
     fun loadInterstitial() {
+
         val adRequest = AdRequest.Builder().build()
         InterstitialAd.load(
             context,
@@ -64,6 +65,7 @@ class AdsManager @Inject constructor(
             .forNativeAd { ad: NativeAd ->
                 nativeAd = ad
                 onNativeAdLoaded?.invoke()
+
             }
             .build()
         adLoader.loadAd(AdRequest.Builder().build())
