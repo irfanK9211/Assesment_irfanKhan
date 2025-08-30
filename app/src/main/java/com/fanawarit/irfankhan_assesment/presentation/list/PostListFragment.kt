@@ -75,6 +75,7 @@ class PostListFragment : Fragment() {
                 putLong("timestamp", System.currentTimeMillis())
             }
 
+
             Firebase.analytics.logEvent("post_open", bundle)
 
             adsManager.showInterstitial(requireActivity()) {
@@ -143,6 +144,7 @@ class PostListFragment : Fragment() {
         val listBundle = Bundle().apply {
             putLong("timestamp", System.currentTimeMillis())
         }
+
         Firebase.analytics.logEvent("post_list_view", listBundle)
 
     }
